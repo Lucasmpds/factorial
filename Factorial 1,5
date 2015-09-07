@@ -2,7 +2,7 @@ while True:
     a=int(input("NUMBER: "))
     if a == -1:
         break
-    fat=1
+    fat="End"
     while a > 1:
         fat=fat*a
         a=a-1
